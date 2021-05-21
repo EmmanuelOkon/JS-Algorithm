@@ -12,7 +12,7 @@ function convertFahrToCelsius(x) {
     return `${x} is not a number but a/an ${typeOfData}`;
   }
   const converted = ((x - 32) / 1.8).toFixed(4);
-  return `${converted} deg F`;
+  return `${converted} deg C`;
 }
 
 console.log(convertFahrToCelsius(0));
